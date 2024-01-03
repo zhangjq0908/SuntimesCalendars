@@ -173,29 +173,6 @@
     <item>1 周</item>
     <item>2 周</item>
     <item>4 周</item>
-</string-array>
-<string-array name="reminder_minutes_values">     <!-- 分钟配置值 -->
-    <item>0</item>
-    <item>1</item>
-    <item>5</item>
-    <item>10</item>
-    <item>15</item>
-    <item>20</item>
-    <item>25</item>
-    <item>30</item>
-    <item>45</item>
-    <item>60</item>
-    <item>120</item>
-    <item>180</item>
-    <item>360</item>
-    <item>540</item>
-    <item>720</item>
-    <item>1440</item>
-    <item>2880</item>
-    <item>10080</item>
-    <item>20160</item>
-    <item>40320</item>
-</string-array>
 
 <string-array name="calendars_window_display">   <!-- 显示值（与 getFix_maxAge_values 一一对应） -->
     <item>一年</item>
