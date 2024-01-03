@@ -376,13 +376,13 @@
     <item>加泰罗尼亚语</item>
     <item>巴斯克语</item>
     <item>挪威语</item>
-    <item>繁体中文</item>
+    <item>中文</item>
     <item>葡萄牙语</item>
     <item>荷兰语</item>
     <item>俄语</item>
     <item>俄语</item>
 </string-array>
-<string-array name="locale_values" translatable="false">
+<!--string-array name="locale_values" translatable="false">
     <item>en</item>
     <item>eo</item>
     <item>fr</item>
@@ -399,7 +399,7 @@
     <item>nl</item>
     <item>ru</item>
 </string-array>
-<string-array name="locale_credits" translatable="false">  <!-- 与 locale_display 一一对应 -->
+<string-array name="locale_credits" translatable="false">  
     <item />
     <item><![CDATA[<a href=https://github.com/Verdulo>Verdulo</a>]]></item>
     <item><![CDATA[<a href=https://github.com/Jej>Jej</a>|<a href=https://github.com/Aloha>Aloha</a>]]></item>
@@ -417,7 +417,7 @@
     <item><![CDATA[<a href=https://github.com/ddanilov>ddanilov</a>]]></item>
 </string-array>
 
-<!-- 默认设置 
+默认设置 
     <string name="def_app_calendars_enabled" translatable="false">false</string>
     <string name="def_calendars_window" translatable="false">31536000000,63072000000</string>
     <string name="def_calendars_window0" translatable="false">31536000000</string>
@@ -430,5 +430,5 @@
     <string name="def_calendars_calendar_moonapsis" translatable="false">false</string>
     <string name="def_calendars_calendar_solstice" translatable="false">true</string> -->
 </resources>
-</string-array>
+
 
