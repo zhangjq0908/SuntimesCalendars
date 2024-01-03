@@ -33,14 +33,14 @@
     <string name="nautical_night">航海极夜</string>
     <string name="white_night">白夜</string>
 
-    <string name="timeMode_golden">金色时刻</string>
-    <string name="timeMode_golden_morning">金色时刻（早晨）</string>
-    <string name="timeMode_golden_evening">金色时刻（傍晚）</string>
+    <string name="timeMode_golden">金色时分</string>
+    <string name="timeMode_golden_morning">金色时分（早晨）</string>
+    <string name="timeMode_golden_evening">金色时分（傍晚）</string>
 
-    <string name="timeMode_blue8">蓝色时刻（8°）</string>
-    <string name="timeMode_blue4">蓝色时刻（4°）</string>
-    <string name="timeMode_blue_morning">蓝色时刻（早晨）</string>
-    <string name="timeMode_blue_evening">蓝色时刻（傍晚）</string>
+    <string name="timeMode_blue8">蓝色时分（8°）</string>
+    <string name="timeMode_blue4">蓝色时分（4°）</string>
+    <string name="timeMode_blue_morning">蓝色时分（早晨）</string>
+    <string name="timeMode_blue_evening">蓝色时分（傍晚）</string>
 
     <string name="moonrise">月升</string>
     <string name="moonset">月落</string>
@@ -50,10 +50,10 @@
     <string name="timeMode_solstice_summer">夏至</string>
     <string name="timeMode_solstice_winter">冬至</string>
 
-    <string name="timeMode_cross_spring">春季十字季节</string>
-    <string name="timeMode_cross_autumnal">秋季十字季节</string>
-    <string name="timeMode_cross_summer">夏季十字季节</string>
-    <string name="timeMode_cross_winter">冬季十字季节</string>
+    <string name="timeMode_cross_spring">立春</string>
+    <string name="timeMode_cross_autumnal">立秋</string>
+    <string name="timeMode_cross_summer">立夏</string>
+    <string name="timeMode_cross_winter">立冬</string>
 
     <string name="timeMode_moon">月亮</string>
     <string name="timeMode_moon_new">新月</string>
@@ -96,7 +96,7 @@
 <string name="calendar_astronomical_twilight_summary" />
 <string name="calendar_gold_twilight_displayName">@string/timeMode_golden</string>
 <string name="calendar_gold_twilight_summary" />
-<string name="calendar_blue_twilight_displayName">蓝色时刻</string>
+<string name="calendar_blue_twilight_displayName">蓝色时分</string>
 <string name="calendar_blue_twilight_summary" />
 <string name="calendar_daylight_displayName">白昼</string>
 <string name="calendar_daylight_summary">日出、日落和太阳正午</string>
