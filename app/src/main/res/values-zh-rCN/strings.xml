@@ -381,7 +381,7 @@
     <item>荷兰语</item>
     <item>俄语</item>
     <item>俄语</item>
-</string-array>
+</string-array> </resources>
 <!--string-array name="locale_values" translatable="false">
     <item>en</item>
     <item>eo</item>
