@@ -152,7 +152,7 @@
     <item>短信</item>
     <!--<item>闹钟</item>-->
 </string-array>
-<string-array name="reminder_method_values" translatable="false">
+<string-array name="reminder_method_values">
     <item>0</item>
     <item>1</item>
     <item>2</item>
@@ -181,7 +181,7 @@
     <item>2 周</item>
     <item>4 周</item>
 </string-array>
-<string-array name="reminder_minutes_values" translatable="false">     <!-- 分钟配置值 -->
+<string-array name="reminder_minutes_values">     <!-- 分钟配置值 -->
     <item>0</item>
     <item>1</item>
     <item>5</item>
@@ -210,7 +210,7 @@
     <item>五年</item>
     <item>十年</item>
 </string-array>
-<string-array name="calendars_window_values" translatable="false">     <!-- 毫秒配置值（与 getFix_maxAge_display 一一对应） -->
+<string-array name="calendars_window_values">     <!-- 毫秒配置值（与 getFix_maxAge_display 一一对应） -->
     <item>31536000000</item>
     <item>63072000000</item>
     <item>157680000000</item>
