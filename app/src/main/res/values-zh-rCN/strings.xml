@@ -210,8 +210,9 @@
     <item>两年</item>
     <item>五年</item>
     <item>十年</item>
-<!-- /string-array>
-<string-array name="calendars_window_values" translatable="false">     
+</string-array>
+    
+<!--string-array name="calendars_window_values" translatable="false">     
     <item>31536000000</item>
     <item>63072000000</item>
     <item>157680000000</item>
