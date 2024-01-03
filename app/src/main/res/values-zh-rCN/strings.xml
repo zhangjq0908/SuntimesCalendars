@@ -151,7 +151,14 @@
     <item>邮件</item>
     <item>短信</item>
     <!--<item>闹钟</item>-->
-
+<!--/string-array>
+<string-array name="reminder_method_values" translatable="false">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <!--<item>4</item>-->
+<!--/string-array> -->
 <string-array name="reminder_minutes_display">   <!-- 显示值 -->
     <item>0 分钟</item>
     <item>1 分钟</item>
@@ -173,19 +180,43 @@
     <item>1 周</item>
     <item>2 周</item>
     <item>4 周</item>
+</string-array>
+<!--    
+<string-array name="reminder_minutes_values" translatable="false">     
+    <item>0</item>
+    <item>1</item>
+    <item>5</item>
+    <item>10</item>
+    <item>15</item>
+    <item>20</item>
+    <item>25</item>
+    <item>30</item>
+    <item>45</item>
+    <item>60</item>
+    <item>120</item>
+    <item>180</item>
+    <item>360</item>
+    <item>540</item>
+    <item>720</item>
+    <item>1440</item>
+    <item>2880</item>
+    <item>10080</item>
+    <item>20160</item>
+    <item>40320</item>
+</string-array> -->
 
 <string-array name="calendars_window_display">   <!-- 显示值（与 getFix_maxAge_values 一一对应） -->
     <item>一年</item>
     <item>两年</item>
     <item>五年</item>
     <item>十年</item>
-</string-array>
-<string-array name="calendars_window_values">     <!-- 毫秒配置值（与 getFix_maxAge_display 一一对应） -->
+<!-- /string-array>
+<string-array name="calendars_window_values" translatable="false">     
     <item>31536000000</item>
     <item>63072000000</item>
     <item>157680000000</item>
     <item>315360000000</item>
-</string-array>
+</string-array> -->
 
 <plurals name="units_years_ago">
     <item quantity="one">%s 年前</item>
@@ -363,7 +394,7 @@
     <item>ca</item>
     <item>eu</item>
     <item>nb</item>
-    <item>zh_TW</item>
+    <item>zh_CN</item>
     <item>pt_BR</item>
     <item>nl</item>
     <item>ru</item>
