@@ -8,13 +8,13 @@
     <string name="timeMode_noon">太阳正午</string>
     <string name="sunrise">日出</string>
     <string name="sunset">日落</string>
-    <string name="timeMode_civil">当地</string>
+    <string name="timeMode_civil">当地曙暮光</string>
     <string name="timeMode_civil_morning">当地黎明（早晨）</string>
     <string name="timeMode_civil_evening">当地黄昏（傍晚）</string>
-    <string name="timeMode_nautical">航海</string>
+    <string name="timeMode_nautical">航海曙暮光</string>
     <string name="timeMode_nautical_morning">航海黎明（早晨）</string>
     <string name="timeMode_nautical_evening">航海黄昏（傍晚）</string>
-    <string name="timeMode_astronomical">天文</string>
+    <string name="timeMode_astronomical">天文曙暮光</string>
     <string name="timeMode_astronomical_morning">天文黎明（早晨）</string>
     <string name="timeMode_astronomical_evening">天文黄昏（傍晚）</string>
 
