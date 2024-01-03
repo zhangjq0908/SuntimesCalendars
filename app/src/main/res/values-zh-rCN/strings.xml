@@ -151,14 +151,7 @@
     <item>邮件</item>
     <item>短信</item>
     <!--<item>闹钟</item>-->
-</string-array>
-<string-array name="reminder_method_values">
-    <item>0</item>
-    <item>1</item>
-    <item>2</item>
-    <item>3</item>
-    <!--<item>4</item>-->
-</string-array>
+
 <string-array name="reminder_minutes_display">   <!-- 显示值 -->
     <item>0 分钟</item>
     <item>1 分钟</item>
