@@ -1,1 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="textSize_small">小</string>
+    <string name="textSize_normal">普通</string>
+    <string name="textSize_large">大</string>
+    <string name="textSize_xlarge">特大</string>
 
+    <string name="timeMode_noon">太阳正午</string>
+    <string name="sunrise">日出</string>
+    <string name="sunset">日落</string>
+    <string name="timeMode_civil">民用黄昏</string>
+    <string name="timeMode_civil_morning">民用黎明（早晨）</string>
+    <string name="timeMode_civil_evening">民用黄昏（傍晚）</string>
+    <string name="timeMode_nautical">航海黄昏</string>
+    <string name="timeMode_nautical_morning">航海黎明（早晨）</string>
+    <string name="timeMode_nautical_evening">航海黄昏（傍晚）</string>
+    <string name="timeMode_astronomical">天文黄昏</string>
+    <string name="timeMode_astronomical_morning">天文黎明（早晨）</string>
+    <string name="timeMode_astronomical_evening">天文黄昏（傍晚）</string>
+
+    <string name="dawn">黎明</string>
+    <string name="dawn_civil">民用黎明</string>
+    <string name="dawn_nautical">航海黎明</string>
+    <string name="dawn_astronomical">天文黎明</string>
+
+    <string name="dusk">黄昏</string>
+    <string name="dusk_civil">民用黄昏</string>
+    <string name="dusk_nautical">航海黄昏</string>
+    <string name="dusk_astronomical">天文黄昏</string>
+
+    <string name="polar_twilight">极昼</string>
+    <string name="civil_night">民用极夜</string>
+    <string name="nautical_night">航海极夜</string>
+    <string name="white_night">白夜</string>
+
+    <string name="timeMode_golden">金色时刻</string>
+    <string name="timeMode_golden_morning">金色时刻（早晨）</string>
+    <string name="timeMode_golden_evening">金色时刻（傍晚）</string>
+
+    <string name="timeMode_blue8">蓝色时刻（8°）</string>
+    <string name="timeMode_blue4">蓝色时刻（4°）</string>
+    <string name="timeMode_blue_morning">蓝色时刻（早晨）</string>
+    <string name="timeMode_blue_evening">蓝色时刻（傍晚）</string>
+
+    <string name="moonrise">月升</string>
+    <string name="moonset">月落</string>
+
+    <string name="timeMode_equinox_vernal">春分</string>
+    <string name="timeMode_equinox_autumnal">秋分</string>
+    <string name="timeMode_solstice_summer">夏至</string>
+    <string name="timeMode_solstice_winter">冬至</string>
+
+    <string name="timeMode_cross_spring">春季十字季节</string>
+    <string name="timeMode_cross_autumnal">秋季十字季节</string>
+    <string name="timeMode_cross_summer">夏季十字季节</string>
+    <string name="timeMode_cross_winter">冬季十字季节</string>
+
+    <string name="timeMode_moon">月亮</string>
+    <string name="timeMode_moon_new">新月</string>
+    <string name="timeMode_moon_firstquarter">首季月</string>
+    <string name="timeMode_moon_full">满月</string>
+    <string name="timeMode_moon_thirdquarter">三季月</string>
+    <string name="timeMode_moon_super">超级月亮</string>
+    <string name="timeMode_moon_micro">微缩月亮</string>
+    <string name="timeMode_moon_superfull">超级满月</string>
+    <string name="timeMode_moon_superfull_short">@string/timeMode_moon_super</string>
+    <string name="timeMode_moon_supernew">超级新月</string>
+    <string name="timeMode_moon_supernew_short">@string/timeMode_moon_super</string>
+    <string name="timeMode_moon_microfull">微缩满月</string>
+    <string name="timeMode_moon_microfull_short">@string/timeMode_moon_micro</string>
+    <string name="timeMode_moon_micronew">微缩新月</string>
+    <string name="timeMode_moon_micronew_short">@string/timeMode_moon_micro</string>
+    <string name="timeMode_moon_apogee">远地点</string>
+    <string name="timeMode_moon_perigee">近地点</string>
+    <string name="timeMode_moon_waxingcrescent">渐盈月</string>
+    <string name="timeMode_moon_waxinggibbous">盈凸月</string>
+    <string name="timeMode_moon_waninggibbous">亏凸月</string>
+    <string name="timeMode_moon_waningcrescent">渐亏月</string>
+<string name="configLabel_calendars">日历</string>
+<string name="configLabel_options">选项</string>
+<string name="configLabel_calendars_location">位置</string>
+
+<string name="calendar_solstice_displayName">冬至、夏至</string>
+<string name="calendar_solstice_summary">冬至、夏至和十字季节日</string>
+<string name="calendar_moonPhase_displayName">月相</string>
+<string name="calendar_moonPhase_summary">朔望月</string>
+<string name="calendar_moonApsis_displayName">月球近地点</string>
+<string name="calendar_moonApsis_summary">近地点月</string>
+<string name="calendar_moonrise_displayName">@string/timeMode_moon</string>
+<string name="calendar_moonrise_summary">月升、月落</string>
+<string name="calendar_civil_twilight_displayName">@string/timeMode_civil</string>
+<string name="calendar_civil_twilight_summary" />
+<string name="calendar_nautical_twilight_displayName">@string/timeMode_nautical</string>
+<string name="calendar_nautical_twilight_summary" />
+<string name="calendar_astronomical_twilight_displayName">@string/timeMode_astronomical</string>
+<string name="calendar_astronomical_twilight_summary" />
+<string name="calendar_gold_twilight_displayName">@string/timeMode_golden</string>
+<string name="calendar_gold_twilight_summary" />
+<string name="calendar_blue_twilight_displayName">蓝色时刻</string>
+<string name="calendar_blue_twilight_summary" />
+<string name="calendar_daylight_displayName">白昼</string>
+<string name="calendar_daylight_summary">日出、日落和太阳正午</string>
+
+<string name="configLabel_calendars_enabled">日历集成</string>
+<string name="configLabel_calendars_enabled_summary">向日历应用提供事件。</string>
+
+<string name="configLabel_calendars_window">日历窗口</string>
+<string name="configLabel_calendars_window_summary">从 <xliff:g id="calendars_window_display" example="一年前">%1$s</xliff:g> 开始，到 <xliff:g id="calendars_window_display" example="一年后">%2$s</xliff:g> 结束。</string>
+
+<string name="configLabel_calendars_window0">窗口（起始）</string>
+<string name="configLabel_calendars_window0_summary">从 <xliff:g id="calendars_window_display" example="一年">%s</xliff:g> 前开始</string>
+
+<string name="configLabel_calendars_window1">窗口（结束）</string>
+<string name="configLabel_calendars_window1_summary">到 <xliff:g id="calendars_window_display" example="两年">%s</xliff:g> 后结束</string>
+
+<string name="calendars_notification_adding">正在添加日历…</string>
+<string name="calendars_notification_added">已添加日历。</string>
+<string name="calendars_notification_adding_failed">无法添加日历！</string>
+
+<string name="calendars_notification_clearing">正在清除日历…</string>
+<string name="calendars_notification_cleared">已清除日历。</string>
+
+<string name="calendars_notification_updating">正在更新日历…</string>
+<string name="calendars_notification_updated">已更新日历。</string>
+
+<string name="calendars_notification_reminders_updating">正在更新提醒…</string>
+<string name="calendars_notification_reminders_updated">已更新提醒。</string>
+
+<string name="confirm_display_format">%s\n%s</string>
+<string name="confirm_add_message1">添加日历？</string>
+<string name="confirm_clear_message0">移除日历？</string>
+<string name="confirm_clear_message1">移除日历？</string>
+
+<string name="confirm_cancel_message">取消正在进行的任务？\n\n可能导致缺失或不完整的日历。</string>
+<string name="confirm_cancel_yes">确认</string>
+<string name="confirm_cancel_no">返回</string>
+
+<string name="dialog_ok">确定</string>
+<string name="dialog_cancel">取消</string>
+
+<string name="action_help">帮助</string>
+<string name="action_openCalendar">打开</string>
+<string name="action_openCalendar1">打开日历</string>
+
+<string name="action_deleteReminder">移除</string>
+<string name="reminder_afterEvent">在活动开始后</string>
+
+<string-array name="reminder_method_display">
+    <item>默认</item>
+    <item>通知</item>
+    <item>邮件</item>
+    <item>短信</item>
+    <!--<item>闹钟</item>-->
+</string-array>
+<string-array name="reminder_method_values" translatable="false">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <!--<item>4</item>-->
+</string-array>
+<string-array name="reminder_minutes_display">   <!-- 显示值 -->
+    <item>0 分钟</item>
+    <item>1 分钟</item>
+    <item>5 分钟</item>
+    <item>10 分钟</item>
+    <item>15 分钟</item>
+    <item>20 分钟</item>
+    <item>25 分钟</item>
+    <item>30 分钟</item>
+    <item>45 分钟</item>
+    <item>1 小时</item>
+    <item>2 小时</item>
+    <item>3 小时</item>
+    <item>6 小时</item>
+    <item>9 小时</item>
+    <item>12 小时</item>
+    <item>1 天</item>
+    <item>2 天</item>
+    <item>1 周</item>
+    <item>2 周</item>
+    <item>4 周</item>
+</string-array>
+<string-array name="reminder_minutes_values" translatable="false">     <!-- 分钟配置值 -->
+    <item>0</item>
+    <item>1</item>
+    <item>5</item>
+    <item>10</item>
+    <item>15</item>
+    <item>20</item>
+    <item>25</item>
+    <item>30</item>
+    <item>45</item>
+    <item>60</item>
+    <item>120</item>
+    <item>180</item>
+    <item>360</item>
+    <item>540</item>
+    <item>720</item>
+    <item>1440</item>
+    <item>2880</item>
+    <item>10080</item>
+    <item>20160</item>
+    <item>40320</item>
+</string-array>
+
+<string-array name="calendars_window_display">   <!-- 显示值（与 getFix_maxAge_values 一一对应） -->
+    <item>一年</item>
+    <item>两年</item>
+    <item>五年</item>
+    <item>十年</item>
+</string-array>
+<string-array name="calendars_window_values" translatable="false">     <!-- 毫秒配置值（与 getFix_maxAge_display 一一对应） -->
+    <item>31536000000</item>
+    <item>63072000000</item>
+    <item>157680000000</item>
+    <item>315360000000</item>
+</string-array>
+
+<plurals name="units_years_ago">
+    <item quantity="one">%s 年前</item>
+    <item quantity="other">%s 年前</item>
+</plurals>
+<plurals name="units_years_fromnow">
+    <item quantity="one">%d 年后</item>
+    <item quantity="other">%d 年后</item>
+</plurals>
+<string name="location_format">%s\u00A0[%s0,\u00A0%s0\u00A0(%sm)]</string>  <!-- 标签 [纬度, 经度 (高度)] -->
+<string name="location_format_short">%s\u00A0[%s0,\u00A0%s0]</string>  <!-- 标签 [纬度, 经度] -->
+<string name="event_at_format">%s @ %s</string>  <!-- 例如：moonrise at location_format -->
+<string name="event_distance_format">%s\n%s 公里</string>  <!-- 例如：full moon (400.71 公里) -->
+<string name="summarylist_format">%s\n%s</string>
+<string name="distance_format">%s 公里</string>  <!-- 例如：full moon (400.71 公里) -->
+
+<string name="toolbar_title">日历</string>
+
+<string name="notificationChannel_main_title">通知</string>  <!-- 通知频道标题 -->
+<string name="notificationChannel_main_desc">通知</string>  <!-- 通知频道描述 -->
+
+<string name="progress_title">正在更新日历</string>
+<string name="progress_message">这可能需要几分钟时间...\n\n您可以关闭应用程序。更新将在后台继续进行。</string>
+
+<string name="reminder_dialog_msg">提醒</string>
+<string name="action_add_reminder">添加提醒</string>
+
+<string name="flag_dialog_msg">事件标记</string>
+<string name="flag_dialog_defaults_toast">已恢复默认事件标记</string>
+
+<string name="template_dialog_msg">事件模板</string>
+<string name="template_dialog_title_label">名称</string>
+<string name="template_dialog_title_hint">名称</string>
+
+<string name="template_dialog_desc_label">描述</string>
+<string name="template_dialog_desc_hint">描述</string>
+
+<string name="template_dialog_location_label">位置</string>
+<string name="template_dialog_location_hint">位置</string>
+
+<string name="template_dialog_saved_toast">模板已保存</string>
+<string name="template_dialog_defaults_toast">已恢复默认模板</string>
+
+<string name="templatestrings_dialog_msg">事件字符串</string>
+<string name="templatestrings_dialog_saved_toast">字符串已保存</string>
+<string name="templatestrings_dialog_defaults_toast">已恢复默认字符串</string>
+
+<string name="action_restore_defaults">恢复默认值</string>
+
+<string name="help_pattern_cal">日历（例如：“民用黄昏”）</string>
+<string name="help_pattern_summary">摘要（例如：“日出/日落”）</string>
+<string name="help_pattern_color">日历颜色（例如：“#FFFFFF”）</string>
+<string name="help_pattern_loc">位置名称（例如：“凤凰城”）</string>
+<string name="help_pattern_lat">位置纬度</string>
+<string name="help_pattern_lon">位置经度</string>
+<string name="help_pattern_lel">位置海拔</string>
+<string name="help_pattern_event">事件标题（例如：“满月”）</string>
+<string name="help_pattern_dist">月球距离</string>
+<string name="help_pattern_illum">月球照度</string>
+<string name="help_pattern_percent">\% 字符</string>
+
+<string name="help_flags"><![CDATA[
+    <h3>标记</h3>
+    这些设置将应用于添加日历事件。
+    <br/><br/>
+    要更改日历事件，请修改这些设置，然后移除并重新添加日历。
+]]></string>
+
+<string name="help_template"><![CDATA[
+    <h3>模板</h3>
+    当添加日历事件时会应用模板。
+    <br/><br/>
+    要更改日历事件的格式，请修改其模板，然后移除并重新添加日历。
+    <br/><br/>
+    <h3>替换</h3>
+    %s
+]]></string>
+
+<string name="help_template_strings"><![CDATA[
+    <h3>事件字符串</h3>
+    可使用 %M 替换的以下值。
+]]></string>
+
+<string name="color_dialog_msg">颜色</string>
+<string name="color_dialog_ok">选择</string>
+<string name="color_dialog_cancel">取消</string>
+
+<string name="about_dialog_title">关于</string>
+<string name="app_name">日出日落日历</string>
+
+<string name="app_provider_version"><![CDATA[<b>日出日落：</b>]]> <xliff:g id="versionString">%s</xliff:g></string>
+<string name="app_provider_version_missing"><![CDATA[
+    <font color="#e65100"><b>依赖丢失！</b></font>
+]]></string>
+<string name="app_provider_version_denied"><![CDATA[
+    <font color="#e65100"><b>权限被拒绝！</b></font>
+]]></string>
+<string name="feature_not_supported_by_provider"><xliff:g id="featureName">%s</xliff:g>不受当前版本支持；需要 <xliff:g id="versionString">%s</xliff:g> 或更高版本。</string>
+<string name="snackbar_missing_dependency"><![CDATA[
+    此应用需要<br />
+    <b><u>%s</u></b> 或更高版本！
+]]></string>
+<string name="snackbar_missing_permission"><![CDATA[
+    权限被拒绝！<br />
+    必须重新安装<u>%s</u>才能正常工作。
+    <br /><br />
+    此应用在安装过程中未获得所需权限。这通常发生在应用的错误安装顺序时 - 请在安装附加组件之前安装日出日落应用。
+]]></string>
+<string name="actionCopyError">复制到剪贴板</string>
+<string name="actionCopyError_toast">错误已复制到剪贴板。</string>
+
+<string name="help_location"><![CDATA[
+    <h1>位置</h1>
+    位置由日出日落进行配置。此设置在添加日历时应用。
+    <br/><br/>
+    要更改日历的位置，请先在日出日落中更改位置，然后移除并重新添加日历。
+]]></string>
+
+<string name="app_version"><![CDATA[<b>版本：</b>]]> <xliff:g id="versionString">%s</xliff:g></string>
+<string name="app_shortdesc">日出日落日历的日历提供程序附加组件。</string>
+<string name="app_support_url"><![CDATA[
+    <b>支持：</b>访问
+    <a href="https://github.com/forrestguice/SuntimesCalendars/issues">问题跟踪器</a> 提交请求。
+]]></string>
+<string name="app_url"><xliff:g id="url"><![CDATA[
+    <a href="https://forrestguice.github.io/SuntimesWidget/">forrestguice.github.io/SuntimesWidget</a>
+]]></xliff:g></string>
+<string name="app_legal1"><![CDATA[
+    <b>源代码：</b><br />
+    版权 &#169 2018-2021 Forrest Guice <br />
+    源代码遵循 GPLv3 许可。
+]]></string>
+<string name="app_legal2"><![CDATA[
+    <b>翻译：</b><br/>
+    <xliff:g id="locale_credits">%1$s</xliff:g>
+]]></string>
+
+<string name="privacy_policy"><![CDATA[<b>隐私：</b>日出日落日历不收集、存储或传输个人用户数据。它不包含<b>广告</b>、<b>分析</b>、<b>追踪器</b>和<b>不必要的权限</b>。<br/><br/><xliff:g id="permissionsExplained">%1$s</xliff:g>]]></string>
+<string name="privacy_permission_calendar"><![CDATA[日出日落日历使用<b>日历</b>权限与日历应用程序集成。这些权限允许该应用程序创建自定义日历和事件。<br/><br/>在禁用日历集成时也需要权限（以移除自定义日历）。]]></string>
+<string name="privacy_permissiondialog_title">权限</string>
+<string name="privacy_url"><xliff:g id="url"><![CDATA[
+    <a href="https://github.com/forrestguice/SuntimesCalendars/wiki/Privacy">github.com/forrestguice/SuntimesCalendars/wiki/Privacy</a>
+]]></xliff:g></string>
+
+<string name="translationCreditsFormat"><![CDATA[&#8226;&nbsp;<b><xliff:g id="languageName">%1$s</xliff:g></b> 由 <xliff:g id="authorList">%2$s</xliff:g>。]]></string>
+<string name="authorListFormat_i"><xliff:g id="authorName1">%1$s</xliff:g>, <xliff:g id="authorName2">%2$s</xliff:g></string>
+<string name="authorListFormat_n"><xliff:g id="authorListFormat_i">%1$s</xliff:g>和<xliff:g id="authorName">%2$s</xliff:g></string>
+<string-array name="locale_display">
+    <item>英语</item>
+    <item>世界语</item>
+    <item>法语</item>
+    <item>德语</item>
+    <item>匈牙利语</item>
+    <item>意大利语</item>
+    <item>波兰语</item>
+    <item>西班牙语</item>
+    <item>加泰罗尼亚语</item>
+    <item>巴斯克语</item>
+    <item>挪威语</item>
+    <item>繁体中文</item>
+    <item>葡萄牙语</item>
+    <item>荷兰语</item>
+    <item>俄语</item>
+    <item>俄语</item>
+</string-array>
+<string-array name="locale_values" translatable="false">
+    <item>en</item>
+    <item>eo</item>
+    <item>fr</item>
+    <item>de</item>
+    <item>hu</item>
+    <item>it</item>
+    <item>pl</item>
+    <item>es_ES</item>
+    <item>ca</item>
+    <item>eu</item>
+    <item>nb</item>
+    <item>zh_TW</item>
+    <item>pt_BR</item>
+    <item>nl</item>
+    <item>ru</item>
+</string-array>
+<string-array name="locale_credits" translatable="false">  <!-- 与 locale_display 一一对应 -->
+    <item />
+    <item><![CDATA[<a href=https://github.com/Verdulo>Verdulo</a>]]></item>
+    <item><![CDATA[<a href=https://github.com/Jej>Jej</a>|<a href=https://github.com/Aloha>Aloha</a>]]></item>
+    <item><![CDATA[<a href=https://github.com/HerHde>Henrik "HerHde" Hüttemann</a>|<a href=https://github.com/Wolkenschieber>Wolkenschieber</a>]]></item>
+    <item><![CDATA[Erci]]></item>
+    <item><![CDATA[<a href=https://github.com/cao->Matteo Caoduro</a>]]></item>
+    <item><![CDATA[<a href=https://github.com/Verdulo>Verdulo</a>]]></item>
+    <item><![CDATA[<a href=https://github.com/Raulvo>Raulvo</a>|<a href=https://github.com/gnusuari0>gnusuari0</a>]]></item>
+    <item><![CDATA[<a href=https://github.com/Raulvo>Raulvo</a>|<a href=https://github.com/gnusuari0>gnusuari0</a>]]></item>
+    <item><![CDATA[<a href=https://github.com/beriain>beriain</a>]]></item>
+    <item><![CDATA[<a href=https://github.com/FTno>FTno</a>]]></item>
+    <item><![CDATA[<a href=https://github.com/pggdt>ft42</a>]]></item>
+    <item><![CDATA[<a href=https://github.com/NetoSilva>Neto Silva</a>|<a href=https://github.com/naoliv>Nelson&#160;A.&#160;de&#160;Oliveira</a>|<a href=https://github.com/efraletti>Enrico S. B. Fraletti</a>]]></item>
+    <item><![CDATA[<a href=https://github.com/Joppla>Joppla</a>]]></item>
+    <item><![CDATA[<a href=https://github.com/ddanilov>ddanilov</a>]]></item>
+</string-array>
+
+<!-- 默认设置 -->
+<string name="def_app_calendars_enabled" translatable="false">false</string>
+<string name="def_calendars_window" translatable="false">31536000000,63072000000</string>
+<string name="def_calendars_window0" translatable="false">31536000000</string>
+<string name="def_calendars_window1" translatable="false">63072000000</string>
+<string name="def_calendars_calendar_civiltwilight" translatable="false">false</string>
+<string name="def_calendars_calendar_nauticaltwilight" translatable="false">false</string>
+<string name="def_calendars_calendar_astrotwilight" translatable="false">false</string>
+<string name="def_calendars_calendar_moonrise" translatable="false">false</string>
+<string name="def_calendars_calendar_moonphase" translatable="false">true</string>
+<string name="def_calendars_calendar_moonapsis" translatable="false">false</string>
+<string name="def_calendars_calendar_solstice" translatable="false">true</string>
+
+</resources>
