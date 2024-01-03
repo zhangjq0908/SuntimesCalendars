@@ -8,13 +8,13 @@
     <string name="timeMode_noon">太阳正午</string>
     <string name="sunrise">日出</string>
     <string name="sunset">日落</string>
-    <string name="timeMode_civil">民用黄昏</string>
-    <string name="timeMode_civil_morning">民用黎明（早晨）</string>
-    <string name="timeMode_civil_evening">民用黄昏（傍晚）</string>
-    <string name="timeMode_nautical">航海黄昏</string>
+    <string name="timeMode_civil">当地</string>
+    <string name="timeMode_civil_morning">当地黎明（早晨）</string>
+    <string name="timeMode_civil_evening">当地黄昏（傍晚）</string>
+    <string name="timeMode_nautical">航海</string>
     <string name="timeMode_nautical_morning">航海黎明（早晨）</string>
     <string name="timeMode_nautical_evening">航海黄昏（傍晚）</string>
-    <string name="timeMode_astronomical">天文黄昏</string>
+    <string name="timeMode_astronomical">天文</string>
     <string name="timeMode_astronomical_morning">天文黎明（早晨）</string>
     <string name="timeMode_astronomical_evening">天文黄昏（傍晚）</string>
 
@@ -23,10 +23,10 @@
     <string name="dawn_nautical">航海黎明</string>
     <string name="dawn_astronomical">天文黎明</string>
 
-    <string name="dusk">黄昏</string>
-    <string name="dusk_civil">民用黄昏</string>
-    <string name="dusk_nautical">航海黄昏</string>
-    <string name="dusk_astronomical">天文黄昏</string>
+    <string name="dusk">曙暮光</string>
+    <string name="dusk_civil">当地曙暮光</string>
+    <string name="dusk_nautical">航海曙暮光</string>
+    <string name="dusk_astronomical">天文曙暮光</string>
 
     <string name="polar_twilight">极昼</string>
     <string name="civil_night">民用极夜</string>
@@ -276,7 +276,7 @@
 <string name="help_pattern_lel">位置海拔</string>
 <string name="help_pattern_event">事件标题（例如：“满月”）</string>
 <string name="help_pattern_dist">月球距离</string>
-<string name="help_pattern_illum">月球照度</string>
+<string name="help_pattern_illum">月球亮度</string>
 <string name="help_pattern_percent">\% 字符</string>
 
 <string name="help_flags"><![CDATA[
@@ -306,7 +306,7 @@
 <string name="color_dialog_cancel">取消</string>
 
 <string name="about_dialog_title">关于</string>
-<string name="app_name">日出日落日历</string>
+<string name="app_name">天文历</string>
 
 <string name="app_provider_version"><![CDATA[<b>日出日落：</b>]]> <xliff:g id="versionString">%s</xliff:g></string>
 <string name="app_provider_version_missing"><![CDATA[
@@ -337,7 +337,7 @@
 ]]></string>
 
 <string name="app_version"><![CDATA[<b>版本：</b>]]> <xliff:g id="versionString">%s</xliff:g></string>
-<string name="app_shortdesc">日出日落日历的日历提供程序附加组件。</string>
+<string name="app_shortdesc">天文日历的日历提供程序附加组件。</string>
 <string name="app_support_url"><![CDATA[
     <b>支持：</b>访问
     <a href="https://github.com/forrestguice/SuntimesCalendars/issues">问题跟踪器</a> 提交请求。
@@ -355,8 +355,8 @@
     <xliff:g id="locale_credits">%1$s</xliff:g>
 ]]></string>
 
-<string name="privacy_policy"><![CDATA[<b>隐私：</b>日出日落日历不收集、存储或传输个人用户数据。它不包含<b>广告</b>、<b>分析</b>、<b>追踪器</b>和<b>不必要的权限</b>。<br/><br/><xliff:g id="permissionsExplained">%1$s</xliff:g>]]></string>
-<string name="privacy_permission_calendar"><![CDATA[日出日落日历使用<b>日历</b>权限与日历应用程序集成。这些权限允许该应用程序创建自定义日历和事件。<br/><br/>在禁用日历集成时也需要权限（以移除自定义日历）。]]></string>
+<string name="privacy_policy"><![CDATA[<b>隐私：</b>天文日历不收集、存储或传输个人用户数据。它不包含<b>广告</b>、<b>分析</b>、<b>追踪器</b>和<b>不必要的权限</b>。<br/><br/><xliff:g id="permissionsExplained">%1$s</xliff:g>]]></string>
+<string name="privacy_permission_calendar"><![CDATA[天文日历使用<b>日历</b>权限与日历应用程序集成。这些权限允许该应用程序创建自定义日历和事件。<br/><br/>在禁用日历集成时也需要权限（以移除自定义日历）。]]></string>
 <string name="privacy_permissiondialog_title">权限</string>
 <string name="privacy_url"><xliff:g id="url"><![CDATA[
     <a href="https://github.com/forrestguice/SuntimesCalendars/wiki/Privacy">github.com/forrestguice/SuntimesCalendars/wiki/Privacy</a>
