@@ -57,9 +57,9 @@
 
     <string name="timeMode_moon">月亮</string>
     <string name="timeMode_moon_new">新月</string>
-    <string name="timeMode_moon_firstquarter">首季月</string>
+    <string name="timeMode_moon_firstquarter">上弦月</string>
     <string name="timeMode_moon_full">满月</string>
-    <string name="timeMode_moon_thirdquarter">三季月</string>
+    <string name="timeMode_moon_thirdquarter">下弦月</string>
     <string name="timeMode_moon_super">超级月亮</string>
     <string name="timeMode_moon_micro">微缩月亮</string>
     <string name="timeMode_moon_superfull">超级满月</string>
