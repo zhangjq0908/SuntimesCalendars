@@ -430,3 +430,5 @@
     <string name="def_calendars_calendar_moonapsis" translatable="false">false</string>
     <string name="def_calendars_calendar_solstice" translatable="false">true</string> -->
 </resources>
+</string-array>
+
